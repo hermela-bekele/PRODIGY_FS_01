@@ -12,27 +12,28 @@
     <div class="container" id="signUp" style="display: none;">
       <h1 class="form-title">Register</h1>
       <form method="post" action="">
+        <div id="signUpMessage" class="messageDiv" style="display:none;"></div>
         <div class="input-group">
           <i class="fas fa-user"></i>
-          <input type="text" name="fName" id="fName" placeholder="First Name" required>
-          <label for="fname">First Name</label>
+          <input type="text" id="fName" placeholder="First Name" required>
+          <label for="fName">First Name</label>
         </div>
         <div class="input-group">
           <i class="fas fa-user"></i>
-          <input type="text" name="lName" id="lName" placeholder="Last Name" required>
-          <label for="lname">Last Name</label>
+          <input type="text" id="lName" placeholder="Last Name" required>
+          <label for="lName">Last Name</label>
         </div>
       <div class="input-group">
         <i class="fas fa-envelope"></i>
-        <input type="email" name="email" id="email" placeholder="Email" required>
-        <label for="email">Email</label>
+        <input type="email" id="rEmail" placeholder="Email" required>
+        <label for="rEmail">Email</label>
       </div>
       <div class="input-group">
         <i class="fas fa-lock"></i>
-        <input type="password" id="password" placeholder="Password" required>
-        <label for="password">Password</label>
+        <input type="password" id="rPassword" placeholder="Password" required>
+        <label for="rPassword">Password</label>
       </div>
-      <input type="submit" class="btn" value="Sign Up" name="signUp">
+      <button class="btn" id="submitSignUp" >Sign Up</button>
       </form>
       <p class="or">
         ----------------------Sign Up With-------------------
@@ -52,9 +53,10 @@
     <div class="container" id="Login">
       <h1 class="form-title">Login</h1>
       <form method="post" action="">
+        <div id="LoginMessage" class="messageDiv" style="display:none;"></div>
       <div class="input-group">
         <i class="fas fa-envelope"></i>
-        <input type="email" name="email" id="email" placeholder="Email" required>
+        <input type="email" id="email" placeholder="Email" required>
         <label for="email">Email</label>
       </div>
       <div class="input-group">
@@ -65,7 +67,7 @@
       <p class="recover">
         <a href="#">Forgot Password</a>
       </p>
-      <input type="submit" class="btn" value="Login" name="Login">
+      <button  class="btn"  id="submitLogin">Login</button>
       </form>
       <p class="or">
         ----------------------Login With-------------------
