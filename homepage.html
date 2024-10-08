@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome to Homepage</title>
+    <title>Welcome to CodeLab</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -70,6 +70,26 @@
             background-color: #45a049;
         }
 
+        /* Employee table styles */
+        .employee-table {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-collapse: collapse;
+            margin-top: 40px;
+        }
+
+        .employee-table th, .employee-table td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .employee-table th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
         footer {
             background-color: #333;
             color: white;
@@ -87,8 +107,8 @@
 </head>
 <body>
 
-     <header>
-        <h1>Welcome to Homepage</h1>
+    <header>
+        <h1>Welcome to Code LAb</h1>
     </header>
 
     <nav>
@@ -97,17 +117,54 @@
         <a href="#contact">Contact</a>
     </nav>
 
-    <div class="container">    
-        <div>First Name: <span id="loggedUserFName"></span></div>
-        <div>Last Name: <span id="loggedUserLName"></span></div>
-        <div>Email: <span id="loggedUserEmail"></span></div>
-        <button id="logout">Logout</button>
+    <div class="container">
+        <h2>Empowering you with Smart Software Solutions</h2>
+        <p>At CodeLab, we deliver cutting-edge software solutions designed to help businesses optimize operations and achieve sustainable growth with minimal resources. By leveraging innovative technologies, we empower companies to streamline management processes, enhance efficiency, and drive long-term success.</p>
+        <a href="#learn-more" class="cta-button">Learn More</a>
 
+        <!-- Employee Table -->
+        <h3>Meet Our Team</h3>
+        <table class="employee-table">
+            <thead>
+                <tr>
+                    <th>Employee Name</th>
+                    <th>Position</th>
+                    <th>Department</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Johnson</td>
+                    <td>Project Manager</td>
+                    <td>Operations</td>
+                </tr>
+                <tr>
+                    <td>Bob Smith</td>
+                    <td>Lead Engineer</td>
+                    <td>R&D</td>
+                </tr>
+                <tr>
+                    <td>Clara Davis</td>
+                    <td>Marketing Manager</td>
+                    <td>Marketing</td>
+                </tr>
+                <tr>
+                    <td>David Lee</td>
+                    <td>Sales Representative</td>
+                    <td>Sales</td>
+                </tr>
+                <tr>
+                    <td>Emma Thompson</td>
+                    <td>Software Developer</td>
+                    <td>IT</td>
+                </tr>
+            </tbody>
+        </table>
     </div>
 
     <footer>
-        <p>&copy; 2024 Homepage. All Rights Reserved.</p>
+        <p>&copy; 2024 CodeLab. All Rights Reserved.</p>
     </footer>
-    
+
 </body>
 </html>
