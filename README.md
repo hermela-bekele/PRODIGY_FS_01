@@ -8,9 +8,6 @@ This project implements a **Secure User Authentication System** featuring signup
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **Signup Page**: Users can create a new account with their email and password.
@@ -31,6 +28,23 @@ This project implements a **Secure User Authentication System** featuring signup
   - Firebase Realtime Database: (Optional) To store user profile data or additional user information.
 
 ## Project Structure
+/project-root
+│
+├── /css                # Stylesheets for the project
+│   └── style.css
+│
+├── /js                 # JavaScript files for handling user interactions
+│   └── firebaseauth.js
+│
+├── /pages              # HTML pages for signup and login
+│   ├── index.html      # Login page
+│   └── homepage.html   # Home page
+│
+├── /img                # (Optional) Images used in the project
+│
+├── homepage.js         # Javascript file to handle home page
+└── README.md           # Project documentation
+
 
 ## Setup and Installation
 
