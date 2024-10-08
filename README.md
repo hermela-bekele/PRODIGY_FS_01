@@ -40,12 +40,14 @@ To run this project locally, follow these steps:
    ```bash
    git clone https://github.com/hermela-bekele/PRODIGY_FS_01.git
 2. **Install Firebas CLI**
+   ```bash
    nnpm install -g firebase-tools
    firebase login
-3. **Set up Firebase
+4. **Set up Firebase
    - create a new project and enable Firebase Authentication with Email/Password as the sign-in method.
    - Obtain your Firebase Configuration object (API key, Auth domain, etc.) and replace the values in the firebaseauth.js file.
-4. **Run the project**
+5. **Run the project**
+   ```bash
    npx live-server
 
    
